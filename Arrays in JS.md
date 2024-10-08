@@ -1,4 +1,3 @@
-
 # JavaScript Array Methods Practice: `forEach` and `filter`
 
 ## Assignment 1: Practicing `forEach` and `filter` with Student Data
