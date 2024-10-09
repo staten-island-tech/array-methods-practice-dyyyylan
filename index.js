@@ -37,8 +37,8 @@ console.log('Electronics:', electronics);
 const expensiveProducts = products.filter(product => product.price > 300);
 console.log('Expensive Products:', expensiveProducts);
 
-const highlyratedproducts = products.filter(product => product.rating >= 4.5)
-highlyratedproducts.forEach((highlyratedproducts) => console.log(highlyratedproducts.name));
+const highlyratedproducts = products.filter(product => product.rating >= 4.5).forEach((highlyratedproducts) => console.log(highlyratedproducts.name));
+
 
 const affordableelectronicss = electronics.filter(electronics => electronics.price < 1000);
 affordableelectronicss.forEach((affordableelectronicss) => console.log(affordableelectronicss));
